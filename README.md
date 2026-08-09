@@ -41,6 +41,18 @@
 | 전화번호 | "오시는 길" 섹션과 푸터 |
 | 사진 | 부서 카드의 `<img class="ph">` |
 
+## 검색엔진 등록 파일
+
+| 파일 | 용도 |
+|---|---|
+| `robots.txt` | 검색엔진 크롤러 허용 + 사이트맵 위치 안내 |
+| `sitemap.xml` | 네이버·구글에 제출하는 사이트 목록 파일 |
+| `naver*.html` | 네이버 서치어드바이저 소유확인 파일 |
+| `google*.html` | 구글 서치콘솔 소유확인 파일 |
+
+- **소유확인 파일(`naver*.html`, `google*.html`)은 절대 삭제하면 안 됩니다.** 검색엔진이 주기적으로 소유권을 재확인하기 때문에, 삭제하면 등록이 풀릴 수 있습니다.
+- 등록 관리 창구: [네이버 서치어드바이저](https://searchadvisor.naver.com) · [구글 서치콘솔](https://search.google.com/search-console)
+
 ## 참고
 
 - `.nojekyll` — GitHub Pages의 Jekyll 빌드를 생략하고 파일을 그대로 서빙하기 위한 표시 파일입니다. 지우지 마세요.
